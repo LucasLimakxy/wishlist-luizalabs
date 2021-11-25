@@ -28,12 +28,12 @@ DATABASE_PASSWORD=postgres
 ```
 - Run migrates
 ```sh
-sudo npm run migrate
+npm run migrate
 ```
 ## Running project 
 - Start the server
 ```sh
-sudo npm run dev
+npm run dev
 ```
 ps: The project will be started on 8080 port by default.
 
