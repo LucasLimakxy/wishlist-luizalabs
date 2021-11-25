@@ -1,7 +1,7 @@
 # Wishlist
 A simple API, built with NodeJS, to manage new customers and their favorite products.
 ## Getting started
-- copy .env-example to .env and edit the variables
+- copy .env-example to .env
 ```sh
 cp .env-example .env
 ```
