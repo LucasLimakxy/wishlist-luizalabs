@@ -5,38 +5,11 @@ A simple API, built with NodeJS, to manage new customers and their favorite prod
 ```sh
 cp .env-example .env
 ```
-- install `npm`
+- just run the containers
 ```sh
-sudo apt install npm
-```
-- install `nodejs`
-```sh
-sudo apt install nodejs
-```
-- install dependencies
-```sh
-sudo npm install
-```
-## Configuring database
-- install postgreSQL (https://www.postgresql.org/download/linux/ubuntu/)
-- create a database
-- set the database configs on .env file
-```sh
-DATABASE_NAME=wishlist
-DATABASE_USER=postgres
-DATABASE_PASSWORD=postgres
-```
-- Run migrates
-```sh
-npm run migrate
-```
-## Running project 
-- Start the server
-```sh
-npm run dev
+docker-compose up -d
 ```
 ps: The project will be started on 3000 port by default.
-
 - Open your browser and access the url
 ```sh
 http://localhost:3000/api-docs/
