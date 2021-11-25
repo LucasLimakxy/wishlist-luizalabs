@@ -35,11 +35,11 @@ npm run migrate
 ```sh
 npm run dev
 ```
-ps: The project will be started on 8080 port by default.
+ps: The project will be started on 3000 port by default.
 
 - Open your browser and access the url
 ```sh
-http://localhost:8080/api-docs/
+http://localhost:3000/api-docs/
 ```
 You'll see the API endpoints documented with swagger, and you'll be able to check out the functionality.
 
