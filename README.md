@@ -7,7 +7,7 @@ cp .env-example .env
 ```
 - just run the containers
 ```sh
-docker-compose up -d
+sudo docker-compose up --build -d
 ```
 ps: The project will be started on 3000 port by default.
 - Open your browser and access the url
@@ -28,5 +28,5 @@ This route will return a token, so put it inside the "Authorize" so we can acces
 
 - To stop the containers run:
 ```sh
-docker-compose down
+sudo docker-compose down
 ```
