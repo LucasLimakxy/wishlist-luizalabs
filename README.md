@@ -1,7 +1,7 @@
 # Wishlist
 A simple API, built with NodeJS, to manage new customers and their favorite products.
 ## Getting started
-- copy .env-example to .env
+- copy .env-example to .env and edit the variables
 ```sh
 cp .env-example .env
 ```
@@ -24,7 +24,9 @@ And then another route to authenticate, which will return a token:
 ```sh
 /authenticate
 ```
-To stop the containers run:
+This route will return a token, so put it inside the "Authorize" so we can access the protected routes.
+
+- To stop the containers run:
 ```sh
 docker-compose down
 ```
