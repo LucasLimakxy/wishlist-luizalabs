@@ -13,6 +13,10 @@ sudo apt install npm
 ```sh
 sudo apt install nodejs
 ```
+- install `nodemon`
+```sh
+sudo apt install nodejs
+```
 - install dependencies
 ```sh
 sudo npm install
