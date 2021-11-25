@@ -24,3 +24,7 @@ And then another route to authenticate, which will return a token:
 ```sh
 /authenticate
 ```
+To stop the containers run:
+```sh
+docker-compose down
+```
